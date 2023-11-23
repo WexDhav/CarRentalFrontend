@@ -1,0 +1,507 @@
+/*Home page*/
+.intro-container {
+   text-align: center;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin: 180px 100px;
+    /*position: absolute;  
+    left: 15%;  
+    top: 50%;  
+    transform: translateY(-50%);*/
+
+}
+.intro-text{
+    position: absolute;
+    right:100px;
+    top:210px;
+}
+.sample-car{
+    height:300px;
+    width:500px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.rent-button {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+/*Register page*/
+.bgImageReg{
+    background-image: url('https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    height: 1000px;
+}
+/*.bgImageReg2{
+    background: linear-gradient(to bottom,grey,white);
+}*/
+.faq2 {
+    padding: 100px 20px;
+    text-align: left;
+    /*background-image: url('https://images.pexels.com/photos/1293120/pexels-photo-1293120.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    color: white;*/
+}
+.faq2 h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+  
+.faq2 h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.faq2 p, .faq ul {
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+.faq2 ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.search {
+    text-align: center;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.search button{
+    margin-left: 20px;
+}
+/*
+.search form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+.search select {
+    padding: 10px;
+    margin: 10px 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 150px;
+
+}
+
+.search option{
+    font-weight: bold;
+}
+
+.search button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}*/
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.feature {
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.feature p {
+    color: black;
+}
+
+/*Signin page*/
+.bgImageSignin{
+    background-image: url('https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+}
+.block{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.user{
+    flex: 2;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url('https://media.istockphoto.com/id/1354045696/photo/white-background-abstract.jpg?b=1&s=612x612&w=0&k=20&c=A8euRZKr_oVematye3PWaLnGKPou5VkVLvCCVH0xQOw=');
+    background-size: cover;
+}
+.admin{
+    flex: 2;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    color: white;
+    /*https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&w=600*/
+    /*https://media.istockphoto.com/id/1319643514/photo/dark-abstract-background-wavy-elements.jpg?s=612x612&w=0&k=20&c=LfweR7i54Bl9kf6poaS8VCLSKb2waNbBAHAOWJlSM68=*/
+}
+.user-input{
+    margin-top: 70px;
+}
+.admin-input{
+    margin-top: 70px;
+}
+.input{
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    max-width: 80%;
+}
+.title{
+    margin-top: 30px;
+}
+
+/*Signup page*/
+.bgImageSignup{
+    background-image: url('https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+}
+.signup{
+    margin:50px auto;
+    padding: 20px;
+    width: 35%;
+}
+.signup input{
+    margin: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    width: 80%;
+}
+/*About page*/
+
+.about-us {
+    padding: 20px;
+    text-align: left;
+    background-image: url('https://media.istockphoto.com/id/1354045696/photo/white-background-abstract.jpg?b=1&s=612x612&w=0&k=20&c=A8euRZKr_oVematye3PWaLnGKPou5VkVLvCCVH0xQOw=');
+    background-size: cover;
+    /*https://images.pexels.com/photos/1293120/pexels-photo-1293120.jpeg?auto=compress&cs=tinysrgb&w=600*/
+}
+
+  
+.about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*Faq page*/
+.faq {
+    padding: 20px;
+    text-align: left;
+    background-image: url('https://media.istockphoto.com/id/1354045696/photo/white-background-abstract.jpg?b=1&s=612x612&w=0&k=20&c=A8euRZKr_oVematye3PWaLnGKPou5VkVLvCCVH0xQOw=');
+    background-size: cover;
+    /*https://images.pexels.com/photos/1293120/pexels-photo-1293120.jpeg?auto=compress&cs=tinysrgb&w=600*/
+}
+  
+.faq h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+  
+.faq h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.faq p, .faq ul {
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+.faq ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+/*.faq {
+    background-image: url('C:\Users\borra\OneDrive\Desktop\FAQ\front\src\image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+/*Travel page*/
+.travel-resources {
+    padding: 20px;
+    background-image: url('https://media.istockphoto.com/id/1354045696/photo/white-background-abstract.jpg?b=1&s=612x612&w=0&k=20&c=A8euRZKr_oVematye3PWaLnGKPou5VkVLvCCVH0xQOw=');
+    background-size: cover;
+}
+  
+.travel-resources h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+  
+.travel-resources p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+.resource-category {
+    margin-bottom: 20px;
+}
+  
+.resource-category h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.resource-category p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+.resource-category a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.linkTravel{
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.featured-resource {
+    margin-top: 20px;
+}
+  
+.featured-resource h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.featured-resource p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/*Contact page*/
+
+.contact-us {
+    background-image: url('https://media.istockphoto.com/id/1354045696/photo/white-background-abstract.jpg?b=1&s=612x612&w=0&k=20&c=A8euRZKr_oVematye3PWaLnGKPou5VkVLvCCVH0xQOw=');
+    background-size: cover;
+    padding: 20px;
+    height: 500px;
+    /*border-radius: 5px;
+    margin: 100px;*/
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+ 
+.contact-us h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+  
+.contact-us p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+.contact-us ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*Cars page CarCard*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.flexbox { /* 8.5 times the height (100px) */
+    text-align: left;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.flexbox img{
+    height: 120px;
+    width: 200px;
+}
+
+.text {
+    flex: 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.text p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.image {
+    flex: 3;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Cars2 page CarCard2*/
+
+.flexbox2 { /* 8.5 times the height (100px) */
+    text-align: left;
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.flexbox2 img{
+    height: 120px;
+    width: 200px;
+}
+.flexbox2 button{
+    width: 70px;
+    margin: 5px;
+}
+.text2 {
+    flex: 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text2 h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.text2 p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.image2 {
+    flex: 3;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Admin page*/
+.bgImageAdmin{
+    background-image: url('https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+}
+.adminform{
+    margin: 50px auto;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
+.adminform input,.adminform select{
+    width: 80%;
+    margin: 30px;
+    margin-left: 60px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+}
+
+/*Profile paage*/
+.bgImageProfile{
+    background-image: url('https://media.istockphoto.com/id/1354045696/photo/white-background-abstract.jpg?b=1&s=612x612&w=0&k=20&c=A8euRZKr_oVematye3PWaLnGKPou5VkVLvCCVH0xQOw=');
+    background-size: cover;
+}
+.profile{
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.7);
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.profileButtons {
+    width: 60%;
+    margin: 10px auto;
+}
+.profile button{
+    margin: 10px 20px;
+}
+.profile table{
+    margin: auto;
+}
+
+/*Booking page*/
+.bgImageBHistory{
+    background-image: url('https://media.istockphoto.com/id/1354045696/photo/white-background-abstract.jpg?b=1&s=612x612&w=0&k=20&c=A8euRZKr_oVematye3PWaLnGKPou5VkVLvCCVH0xQOw=');
+    background-size: cover;
+}
+.bookingForm {
+    width: 60%;
+    margin: auto;
+}
+.bookingForm input{
+    margin: 20px 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+}
+
+/*Search1 page*/
+.search1{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.search1 form{
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+.search1 select{
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+}
+.search1 button{
+    margin: 20px auto;
+}
+
+/*Edit pages*/
+.bgImageEdit{
+    background-image: url('https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+}
